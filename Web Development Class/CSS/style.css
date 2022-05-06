@@ -1,0 +1,54 @@
+/*Selector {
+	Property:  value;
+}*/
+body{
+	background-image: url(adam-smigielski-SWa6EYLCac0-unsplash.jpg);
+	background-size: cover;
+}
+
+h2, p{
+	color:  red;
+	text-align: center;
+	border: 5px solid purple;
+	cursor:  pointer;
+}
+
+p {
+	color: pink !important;
+	line-height: 100px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'IBM Plex Mono';
+}
+img {
+	float: left;
+}
+footer {
+	clear: both;
+	text-align: center;
+	color: pink;
+	font-size: 26px;
+}
+
+.webtext {
+	border: dashed;
+	border-color: pink;
+}
+
+.active{
+	color: blueviolet;
+}
+
+#div1 {
+	background: rgb(0, 0, 255, 0.2) ;
+}
+
+#div2 {
+	background-color: rgb(255, 0, 0 0.2);
+}
+.boxmodel {
+	border:  5px solid red;
+	display: inline-block;
+	padding: 5px 20px;
+	margin: 0px 20px;
+}

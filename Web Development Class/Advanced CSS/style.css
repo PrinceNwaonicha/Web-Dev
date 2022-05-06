@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-image: url(hidayat-abisena--A2IuOZnmHs-unsplash.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    border-bottom: 2px solid skyblue;
+    width: 400px;
+    text-align: center;
+    border-right: 2px solid skyblue;
+    box-shadow: 4px 4px 5px skyblue;
+}
+
+
+img {
+    width: 450;
+    height: 200px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1)
+}
